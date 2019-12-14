@@ -32,24 +32,31 @@
                 <h1 class="display-4">Steven Jones</h1>
                 <p class="lead">contact</p>
               </div>
-            </div>
-        
+          </div>
+
           <hr>
-          <p>
-              <label for="textarea">Name</label>
-              <input type="textarea" id="name" />
-          </p>
-          <p>
-              <label for="textarea">Email</label>
-              <input type="textarea" id="email" />
-          </p>
-          <p>
-              <label for="textarea"></label>
-              <textarea id="textarea" ="6"rows="6"></textarea>
-          </p>
-          <p>
-              <button class="badge badge-pill badge-dark"; type="submit">Submit</button>
-          </p>
+          <main>
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"></span>
+              </div>
+              <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1">
+          </div>
+
+          <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"></span>
+              </div>
+          </div>
+              
+          <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Additional Comments...</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+          </main>
 </body>
 
 <footer class="footer mt-auto py-3">
