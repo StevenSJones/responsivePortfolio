@@ -1,55 +1,61 @@
 <!DOCTYPE html>
-<html lang="en-us"> <!--this line specifies that this page is in the US style of English -->
+<html lang="en">
 <head>
-        <title>Contact</title> <!--per specs-->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"><!--link to style.css
-            which is in DIFFERENT folder so requires file path-->
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <title>contact</title>
 </head>
-<body id="full-flex">
-
-    <div id="textright"><!--links that go in the top right corner-->
-        <span>
-            <a class="anvil" href="./index.html">About Me  |   
-            </a>
-            <a class="anvil" href="./contact.html">Contact |    
-            </a>
-            <a class="anvil" href="./portfolio.html">Me |    
-            </a>
-        </span>
-
-        <h1 class="ltheader" id="textcenter">Steven Jones</h1>
+<body>
+  
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            </button>
+            <div class="float-sm-right"; class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  
+                <li class="nav-item">
+                  <a class="badge badge-pill badge-light"; class="nav-link" href="/index.html">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="badge badge-pill badge-light"; class="nav-link" href="/contact.html">contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="badge badge-pill badge-light"; class="nav-link" href="/portfolio.html">portfolio</a>
+               
+              </ul>
+            </div>
+          </nav>
+          <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Steven Jones</h1>
+                <p class="lead">contact</p>
+              </div>
+            </div>
         
-    </div>
-     
-<div class="contactmain">
-
-        <h1 id="teal">Contact</h1><!--named so per spec-->
-
-        <hr>
-        
-        <form>
-            <h4>Name</h4>
-            <input type="text" name="Name" placeholder="Please type your name..."><br><br>
-            <br>
-            <h4>Email</h4>
-            <input type="text" name="Email" placeholder="Please type your email..."><br><br>
-            <br>
-            <h4>Message</h4>
-            <input type="text" name="Comment" placeholder="Please type your comment..."><br><br>
-            <br>
-        </form>
-    
-        
-            <button id="tealback" type="button" onclick="alert('Submitted!')">submit</button><!--this is the submit button-->
- 
-    </div>
-
-    <div class="blackbackft">
-        <footer  class="footer"></footer><!--footer per spec-->
-    </div>
-    
-     
+          <hr>
+          <p>
+              <label for="textarea">Name</label>
+              <input type="textarea" id="name" />
+          </p>
+          <p>
+              <label for="textarea">Email</label>
+              <input type="textarea" id="email" />
+          </p>
+          <p>
+              <label for="textarea"></label>
+              <textarea id="textarea" ="6"rows="6"></textarea>
+          </p>
+          <p>
+              <button class="badge badge-pill badge-dark"; type="submit">Submit</button>
+          </p>
 </body>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">Created by SSJONES</span>
+    </div>
+  </footer>
+
 </html>

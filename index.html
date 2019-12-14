@@ -1,71 +1,80 @@
 <!DOCTYPE html>
-<html lang="en-us"> <!--this line specifies that this page is in the US style of English -->
-  <head>
-
-    <title>Steven Jones</title> <!--per specs-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"><!--link to style.css
-       which is in DIFFERENT folder so requires file path-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   
-  </head>
-  <body id="full-flex">
+  
+  <title>Document</title>
 
-     <div id="textright"><!--links that go in the top right corner-->
-        <span>
-          <a class="anvil" href="./index.html">About Me  |   
-          </a>
-          <a class="anvil" href="./contact.html">Contact |    
-          </a>
-          <a class="anvil" href="./portfolio.html">Me |    
-          </a>
-        </span>
-
-        <h1 class="ltheader" id="textcenter">Steven Jones</h1><!--header per spec-->
-
-      </div> 
-       
-<div class="indexmain">
-
-        <h1 id="teal">About Me</h1><!--named so per spec-->
-
-        <hr>
-
-        <img id="TheStevens" src="assets/images/TheStevens.jpg" id="leftfloat" width="30%" height="40%" 
-        class="rotateimg90">
-        <!--The source looks like this because in using the relative file path the folders must be named-->
-
-            <p>
-            My name is Steven Jones and I frequent Colorado's front roads and backstreets
-            from Idaho Springs in the west to Akron in the east and from Windsor in the 
-            north to Trinidad in the South and a lot of what is in between. I've plotted,
-            built, and traversed these roads between 2005 and the current time. I was born
-            in Boulder, CO and have lived in Aurora, Broomfield, Colorado Springs,
-            Denver, Lafayette, and Westminster during my extensive time in the "Centennial 
-            State."
-            </p>
-            <p>
-            My immediate family consists of my wife Moriah, Sons Steven and Ge'Ovonni and my
-            daughters Teriah, Jada and Shayla, and mother-in-law Lori. I currently roam 
-            the local terrain delivering hospice equipment as well as oxygen and other related
-            items to those souls in need whether it be morning, noon, night, holiday, or 
-            weekends. I enter people's lives at the point at which they or their loved ones
-            begin or end their ultimate journey.
-            </p>
-            <p>
-            I spend all of my time while not at work or doing coding travelling the country;
-            and honestly the world, with my family likey in a manner connected to my 
-            youngest son Steven playing on his youth travel hockey team. I enjoy watching and 
-            playing ice hockey with my son as well as bowling, drawing, studying all matters 
-            related to the planetary sciences, baking with my wife, and staying active. I 
-            follow the Boston Bruins in the NHL, the Oakland Raiders in the NFL, the Los Angeles
-            Clippers in the NBA and Liverpool in the Premier League.
-            </p>
-        </div>
-
-      </div>
-     
-     <div class="blackbackft">
-        <footer class="footer"></footer>
-    </div>   
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      </button>
+      <div class="float-sm-right"; class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
             
-  </body>
+          <li class="nav-item">
+            <a class="badge badge-pill badge-light"; class="nav-link" href="/index.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="badge badge-pill badge-light"; class="nav-link" href="/contact.html">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="badge badge-pill badge-light"; class="nav-link" href="/portfolio.html">portfolio</a>
+         
+        </ul>
+      </div>
+    </nav>
+  
+    <hr>
+
+
+  <div class="jumbotron jumbotron-fluid" class="bg-primary";>
+    <div class="container">
+      <h1 class="display-4">Steven Jones</h1>
+      <p class="lead">A bit about me</p>
+    </div>
+  </div>
+
+  <div>
+
+      <img src="..." class="img-fluid"; width: 100% \9; class="rounded mx-auto d-block" alt="...">
+      
+  </div>
+  
+</body>
+
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">I was born in Boulder, CO</h1>
+    <p class="lead">and currently live ten minutes east of Boulder in Broomfield. I've lived in Colorado for 28 of my 33 years. 
+      I spend most of my time with my wife Moriah and sons;Ge'Ovonni and Steven, playing or watching ice hockey. We support the 
+      Boston Bruins priamrily because they gave us box seats while we were in Boston for our then five year old son Steven's 
+      surgery. Steven got pneumonia and couldn't have surgery and through Boston Children's Hospital the Bruins organization 
+      donated the tickets to us. We watched them lose to the Florida Panthers and were hooked. We came home and after some
+      rest and recouperation, my sona started playing hockey and we never looked back. We also follow the Los Angeles Clippers
+      in the NBA, the Oakland (soon to be Las Vegas) Raiders in the NFL and Liverpool in the Premier League. We are currently 
+      in a state of flux and are hoping that I am able to pick up "this coding thing."</p>
+  </div>
+  <div class="container">
+      <p class="lead">I thouroughly enjoy listening to some smooth and slow jazz on just as slow Sunday afternoon, or anytime.
+        I enjoy Chet Baker and John Coltrane very much. I also enjoy hip hop (I rapped and performed in a past life) as well as 
+        R&B, metal and classical in the car. I enjoy comedy and right now am watching anything that I can find with Tom Sagura
+        featured. I'd always slow the progression of channels for good boxing match. To me, the sweet science is just that. My
+        wife and I bake often as well. My wife made me a lemon cake with raspberry filling and lemon cream cheese frosting and 
+        my lemon cheesecake is... kind of big deal. 
+      </p>
+    </div>
+</main>
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">Created by SSJONES</span>
+  </div>
+</footer>
 </html>
+
