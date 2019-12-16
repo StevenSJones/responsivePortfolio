@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;/*part of flexbox-0sticky footer*/
+  background-image: url("../images/brushed_alu.png")
+/* Background pattern from Toptal Subtle Patterns */
+
+}
+
+
+The container of portfolio.html's style */
+#container2 {
+  background: #FFFFFF;
+  width: 64%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 7.3%;
+  border-color: #DDDDDD;
+}
+.portfolio {
+  overflow: auto;
+}
+.pf {
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.pftitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: teal;
+  width: 320px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pftitle a {
+  color: white;
+  text-decoration: none;
+}
+.pftitle a:hover {
+  background-color: white;
+  color: teal;
+}
+img {
+  padding: 10px;
+  margin: 0px;
+  width: 320px;
+  height: 200px;
+  float: left;
+}

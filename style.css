@@ -1,0 +1,19 @@
+.rotateimg90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#marg-20 {
+  margin-left: 20%
+}
+
+.card-description {
+  position: absolute;
+  z-index: -1;
+  padding: 10 10 10 10;
+  margin: 10 10 10 10;
+  f
+}
